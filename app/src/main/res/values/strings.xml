@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">tes</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
+    <string name="imagen_logo">Logo</string>
+    <string name="altoque">Al toque!</string>
+    <string name="appfav">Tu app favorita de delivery</string>
+    <string name="iniciagoogle">Iniciar sesión con Google</string>
 </resources>
