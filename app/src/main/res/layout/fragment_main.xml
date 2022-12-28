@@ -17,6 +17,15 @@
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintTop_creator="1" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hola perro"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="390dp" />
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -37,9 +46,9 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="459dp"
+        android:layout_marginTop="456dp"
         android:text="Button"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="130dp" />
+        tools:layout_editor_absoluteX="158dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
