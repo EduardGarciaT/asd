@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.874"
+        app:layout_constraintVertical_bias="0.892"
         tools:ignore="HardcodedText" />
 
     <Button
@@ -40,7 +40,7 @@
         android:background="@drawable/btn_1"
         android:text="REGISTRARSE"
         android:textColor="@drawable/txt_btn_1"
-        tools:ignore="HardcodedText"
+        tools:ignore="HardcodedText,MissingConstraints"
         tools:layout_editor_absoluteX="129dp"
         tools:layout_editor_absoluteY="561dp" />
 

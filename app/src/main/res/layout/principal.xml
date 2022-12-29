@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@drawable/fondo">
 
 
     <TextView
@@ -125,6 +125,7 @@
             android:drawableTop="@drawable/restaurant"
             android:text="Restaurante"
             android:textColor="@color/black"
+            android:textSize="12dp"
             tools:layout_editor_absoluteX="-1dp"
             tools:layout_editor_absoluteY="8dp" />
 
