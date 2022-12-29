@@ -95,34 +95,4 @@
             android:textStyle="bold" />
     </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="96dp"
-        android:layout_height="78dp"
-        android:background="@color/white"
-        android:scaleType="fitEnd"
-        app:srcCompat="@drawable/restaurant"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="634dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="94dp"
-        android:layout_height="78dp"
-        android:background="@color/white"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/menu"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="634dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="88dp"
-        android:layout_height="76dp"
-        android:background="@color/white"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/compras"
-        tools:layout_editor_absoluteX="307dp"
-        tools:layout_editor_absoluteY="636dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
