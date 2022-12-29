@@ -59,8 +59,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="409dp"
-        android:layout_height="266dp"
+        android:layout_width="412dp"
+        android:layout_height="270dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteY="297dp">
 
@@ -94,5 +94,37 @@
             android:textSize="20sp"
             android:textStyle="bold" />
     </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="409dp"
+        android:layout_height="103dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="627dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="27dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="27dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="Button"
+            tools:layout_editor_absoluteX="299dp"
+            tools:layout_editor_absoluteY="27dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
