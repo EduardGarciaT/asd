@@ -3,7 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
 
     <TextView
         android:id="@+id/textView"
@@ -11,26 +13,32 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="RESTAURANTE"
+        android:textColor="@color/black"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <LinearLayout
-        android:layout_width="411dp"
-        android:layout_height="236dp"
+        android:layout_width="413dp"
+        android:layout_height="234dp"
+        android:background="@color/grey_light"
+
         android:orientation="vertical"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="57dp">
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="match_parent"
+            android:layout_width="413dp"
             android:layout_height="wrap_content"
             android:layout_margin="1dp"
-            android:background="@color/grey_light"
+            android:background="@color/white"
             android:text="Brasas y Parrillas Valisa"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold"
             tools:ignore="HardcodedText" />
@@ -38,19 +46,20 @@
         <ImageButton
             android:id="@+id/imageButton2"
             android:layout_width="match_parent"
-            android:layout_height="172dp"
-            android:background="@color/grey_light"
+            android:layout_height="170dp"
+            android:background="@color/white"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/valisa" />
+            app:srcCompat="@drawable/valisa"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="1dp"
-            android:background="@color/grey_light"
+            android:background="@color/white"
             android:text="Pollos a la Brasa y Variedades"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold"
             tools:ignore="HardcodedText" />
@@ -59,72 +68,88 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="412dp"
-        android:layout_height="270dp"
+        android:layout_width="409dp"
+        android:layout_height="259dp"
+        android:background="@color/grey_light"
         android:orientation="vertical"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="297dp">
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="match_parent"
+            android:layout_width="414dp"
             android:layout_height="wrap_content"
             android:layout_margin="1dp"
-            android:background="@color/grey_light"
+            android:background="@color/white"
             android:text="Brig Par"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
 
         <ImageButton
             android:id="@+id/imageButton3"
             android:layout_width="match_parent"
-            android:layout_height="198dp"
-            android:background="@color/grey_light"
+            android:layout_height="195dp"
+            android:background="@color/white"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/brigpar" />
+            app:srcCompat="@drawable/brigpar"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="1dp"
-            android:background="@color/grey_light"
+            android:background="@color/white"
             android:text="Comidas Rapidas y Piqueos"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="409dp"
-        android:layout_height="103dp"
+        android:layout_width="412dp"
+        android:layout_height="114dp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="627dp">
+        tools:layout_editor_absoluteY="619dp">
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="27dp" />
+            android:id="@+id/button4"
+            android:layout_width="138dp"
+            android:layout_height="98dp"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/restaurant"
+            android:text="Restaurante"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="-1dp"
+            tools:layout_editor_absoluteY="8dp" />
 
         <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button"
-            tools:layout_editor_absoluteX="157dp"
-            tools:layout_editor_absoluteY="27dp" />
+            android:id="@+id/button5"
+            android:layout_width="138dp"
+            android:layout_height="98dp"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/menu"
+            android:text="Menu"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="8dp" />
 
         <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:text="Button"
-            tools:layout_editor_absoluteX="299dp"
-            tools:layout_editor_absoluteY="27dp" />
+            android:id="@+id/button6"
+            android:layout_width="138dp"
+            android:layout_height="98dp"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/compras"
+            android:text="Compras"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="275dp"
+            tools:layout_editor_absoluteY="8dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
