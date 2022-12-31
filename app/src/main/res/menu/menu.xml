@@ -12,6 +12,11 @@
             android:title="Informacion"
             app:showAsAction="never"
             tools:ignore="HardcodedText" />
+        <item android:id="@+id/Misdatos"
+            android:icon="@drawable/user"
+            android:title="Mis Datos"
+            app:showAsAction="never"
+            tools:ignore="HardcodedText" />
         <item
             android:id="@+id/admi"
             android:icon="@drawable/admicon"
